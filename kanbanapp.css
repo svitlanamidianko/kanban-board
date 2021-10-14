@@ -1,0 +1,134 @@
+/* 
+CSS definitions for different styles. For reference, find the figma file here
+https://www.figma.com/file/reizHCaHHSsg09HOfkFX8r/CS162-assi?node-id=0%3A3
+*/
+.group-title{
+  width: 458px;
+  height: 51px;
+  left: 11px;
+  top: 14px;
+  background: #000AA6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.group-title-text{
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  font-feature-settings: 'pnum' on, 'onum' on;
+  color: #FFFFFF;
+}
+
+.task-card{
+  width: 458px;
+  height:  auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #000443;
+  border: 0.2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(82, 40, 150, 0.8);
+  border-radius: 30px;
+}
+
+.task-card-name{
+  font-family: Fira Code;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #EA3E79;
+}
+/* This allows us to have three columns */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.tags-together-grid{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+}
+.tag{
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #000443;
+  border: 0.2px solid #EA3E79;
+  padding: 0px;
+  margin:10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border-width: 1px;
+  
+}
+.tag-text{
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ECB2C6;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1px;
+}
+.task-description{
+  position: relative;
+  left: 5.87%;
+  right: 5.87%;
+  bottom: 39.1%;
+  padding-right: 50px;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: #ECB2C6;
+}
+.button-add{
+  position: relative;
+  left: 45%;
+  font-family: Fira Code;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  background-color:  #EA3E79;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 4px 20px #01065A;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 4px;
+  bottom : 0;
+}
+.button-marking{
+  position: relative;
+  font-family: Fira Code;
+  font-size: 10px;
+  box-align: center;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  margin-left:10px;
+  margin-bottom:10px;
+  border-color: #EA3E79;
+  border-width: 0.1px;
+
+}
